@@ -1,0 +1,249 @@
+/* TODO(you): Write the CSS to finish the assignment! */
+*{
+    margin:auto;
+
+}
+
+
+header{
+
+    border-bottom: 1px solid #ccc;
+    height: 80px;
+    font-family: Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    width: 700px;   
+}
+body {
+    width: 100vw;
+    font-size: 18px;
+    color: #222222;
+    font-family: "Proxima Nova", "Helvetica", "Arial", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#course-name{  
+    color: #ee3322;
+    text-align: center;
+    font-size: 32px;
+    text-align: left;
+    margin-left: 0;
+}
+#mern{
+    display: flex;
+    margin: 0 0px;
+    
+}
+span{
+    display: flex;
+    background-color: #ffee00;
+    border-radius: 100%;
+    height: 50px;
+    width: 50px;
+    justify-content: center;
+    align-items: center;
+    transform: rotate(-30deg);
+    
+}
+
+
+#quiz-name{
+    background-image: url(images/background.jpg);
+    width: 700px;
+    height: 425px;
+    background-size:cover;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+h1{
+    width: fit-content;
+    background-color:rgba(255, 255, 255, 0.9) ;
+    font-family:Pangolin,'Trebuchet MS', cursive  ;
+    font-size: 60px;
+    color:black;    
+    
+}
+#author{
+    font-size: 14px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+article{
+    font-family:'Proxima Nova', 'Helvetica',
+    'Arial',sans-serif ;
+    width: 700px;
+}
+br{
+    line-height: 18px;
+}
+#start-box{
+    background-color: #f1f1f1;
+    padding-top:18px ;
+    margin-top: 36px;
+    margin-bottom: 36px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 1px solid #dcdcdc;
+}
+#blue-button{
+    color: white ;
+    background-color: #2196F3;
+    padding:18px ;
+    width: fit-content;
+    font-size: 18px;
+    border:none;
+}
+#blue-button:hover{
+    background-color:  #0d8bf2;
+}
+h2{
+    font-weight: bold;
+}
+p{
+    font:#222222;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+#submit-box{
+    background-color: #f1f1f1;
+    padding-top: 36px;
+    padding-bottom: 36px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.title {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 18px 0 18px 0;
+}
+.questions {
+    font-weight: bold;
+    margin-bottom: 18px;
+}
+
+label {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: #f1f1f1;
+    padding: 15px 0px 15px 45px;
+    border-bottom: 1px solid white;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+label:hover {
+    background-color: #ddd;
+}
+
+input[type="radio"]:checked+label {
+    background:#ddd;
+}
+.background {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+span {
+    font-weight: bold;
+}
+.style {
+    margin-bottom: 18px;
+}
+.answer_box {
+    margin-bottom: 30px;
+}
+input {
+    margin-right: 15px;
+    margin-left: 15px;
+    position: absolute;
+    cursor: pointer;
+}
+button {
+    color: white;
+    margin-top: 18px;
+    margin-bottom: 18px;
+    border: none;
+    padding: 18px 18px;
+    font-size: 18px;
+    cursor: pointer;
+    width:fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.green {
+    background-color: #4caf50;
+}
+
+.green:hover {
+    background-color: #46a049;
+}
+.blue {
+    background-color: #2196f3;
+}
+
+.blue:hover {
+    background-color: #0d8bf2;
+}
+
+.correct,
+.wrong {
+    position: absolute;
+    color: white;
+    right: 10px;
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 5px 5px 5px 5px;
+}
+
+.answer_box {
+    margin-bottom: 30px;
+}
+
+.score {
+    font-size: 24px;
+}
+
+.result_title {
+    font-size: 36px;
+    font-weight: bold;
+    margin-top: 30px !important;
+    margin-bottom: 30px !important;
+}
+.again-box{
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 36px 0 36px 0;
+    border: 1px solid #dcdcdc;
+}
+
+@media only screen and (max-width: 700px) {
+    .content {
+        width: 95%;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    #mern {
+        display: none;
+    }
+}
